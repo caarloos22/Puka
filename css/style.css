@@ -1,0 +1,219 @@
+/**          RESET          */
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/**                Header            **/
+
+header {background-color: gold;
+        position: sticky;
+        top: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+ }
+h1 a{color: crimson;
+    font-size: 60px;    
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: none;
+ }
+header nav ul {display: flex;
+    list-style: none;
+    }
+header nav ul li {
+    margin: 20px;
+    
+}
+header ul li a {text-decoration: none;
+    font-size: 25px;
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+     
+                            /**     MAS VENDIDOS    **/
+
+.tarjetas-productos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tarjetas-productos div {border: 5px solid black;
+    width: 270px;
+    height: 230px;
+    margin: 10px;
+    display: inline-block;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+}
+.tarjetas-productos div img {width: 50%;
+height: 55%;}
+
+.mas-vendidos h2 {text-align: center;
+    background-color: gold;
+    font-size: 70px;
+    color: crimson;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.mas-vendidos div h3 {color: black;
+    font-size: 25px;
+
+}
+
+
+.mas-vendidos div a {color: aliceblue;
+    background-color: black;
+    text-decoration: none;
+    padding: 18px;
+    text-decoration: none;
+    margin: 10px;
+    
+    
+}
+
+
+.mas-vendidos {margin-bottom: 30px;}
+
+
+
+
+
+
+
+                                    /*          hero section        **/
+.hero {
+   background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    height: calc(100vh - 113px );
+ 
+    
+    
+}
+.hero div { text-align: center;
+    color: gold;
+   
+}
+.hero div h1 {font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;  
+}
+.hero div p {font-size: 30px;
+padding: 10%;}
+.hero div img {width: 100%;
+    height: 80%;}
+.hero a {background-color: black;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;}
+
+
+
+            /**         registrarse         **/
+           .registrarte {margin-bottom: 30px;
+        
+        }
+            .registrarte p {background-color: black;
+            color: blanchedalmond;
+            font-size: 30px;
+            }
+            .formulario {display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+           
+            }
+                .formulario div label{ font-size: 25px;}
+                .formulario div input{width: 250px;}
+                .registrarse {display: flex;
+                    flex-wrap: wrap;
+                    text-align: center;
+                font-size: 50px;
+                justify-content: center;
+                background-color: black;
+                color: blanchedalmond;
+                }
+
+            
+
+                        /**               FOOTER         **/    
+                        .footer {display: flex;
+                            align-items: center;
+                            background-color: black;
+                            
+                            flex-direction: column;
+
+                        }
+                        .footer {
+                            color: gold;
+                            font-size: 50px;
+                            font-family: 'Courier New', Courier, monospace;
+                            background-color: black;}
+                            
+
+
+
+/** MEDIA QUERI **/
+/** HEADER **/
+@media screen and (max-width: 860px)
+{header {flex-direction: column;
+    position: static;
+}
+header nav ul {flex-direction: column;
+}
+header nav ul li {margin: 0px;}
+}
+
+
+
+
+/** hero section **/
+@media screen and (max-width: 1033px){
+   .hero div h1 {font-size: 40px;}
+   .hero div p {font-size: 30px;}
+}
+@media screen and (max-width: 800px) {
+    .hero div img {width: 100%;
+    height: 80%;}
+}
+@media screen and (max-width: 450px){
+    .hero div h1 {font-size: 30px;}
+    .hero div p {font-size: 20px;}
+}
+
+/** --------- MAS VENDIDOS ----------- **/
+@media screen and (max-width: 1070px) {.tarjetas-productos div {border: 5px solid black;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    display: inline-block;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;}
+
+    .mas-vendidos div a {color: aliceblue;
+        background-color: black;
+        text-decoration: none;
+        padding: 10px;
+        text-decoration: none;
+        
+    }
+   .mas-vendidos div img {width: 100px;
+height: 50px;}
+}
+
+@media screen and (max-width: 980px){
+    .mas-vendidos h2 {font-size: 50px;}
+}
+@media screen and (max-width: 740px){
+    .mas-vendidos h2 {font-size: 30px;}
+    
+}
