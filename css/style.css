@@ -18,7 +18,7 @@ header {background-color: gold;
  }
 h1 a{color: crimson;
     font-size: 60px;    
-    font-family: 'Courier New', Courier, monospace;
+    
     text-align: center;
     text-decoration: none;
  }
@@ -32,7 +32,7 @@ header nav ul li {
 header ul li a {text-decoration: none;
     font-size: 25px;
     color: crimson;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 
      
@@ -60,7 +60,7 @@ height: 55%;}
     background-color: gold;
     font-size: 70px;
     color: crimson;
-    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 
@@ -104,7 +104,7 @@ height: 55%;}
    
 }
 .hero div h1 {font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;  
+    
 }
 .hero div p {font-size: 30px;
 padding: 10%;}
@@ -154,7 +154,7 @@ padding: 10%;}
                         .footer {
                             color: gold;
                             font-size: 50px;
-                            font-family: 'Courier New', Courier, monospace;
+                            
                             background-color: black;}
                             
 
